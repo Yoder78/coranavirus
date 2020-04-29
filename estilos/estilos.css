@@ -9,6 +9,18 @@ img{
     margin-left: 30px;
   
     }
+
+section #contenedor{
+  margin: 0;
+  border: 0;
+  padding:20;
+}
+#ecua{
+    width: 200px;
+    margin-top: 2em;
+    margin-left: 2em;
+    
+}
 .header{
     list-style: none;
     float: right;
@@ -75,5 +87,18 @@ img{
 
     #contenedor{
         background-color: rgba(6, 6, 212, 0.89);
+
+    }
+    h1{
+      color: rgb(255, 251, 6);
+      text-align: right;
+      margin-top: 1em;
+      font-size: 2em;
+      margin-right: 2em;
+      float: right;
+      width: 15em;
+    }
+    #ecua2{
+      width: 700px;
 
     }
