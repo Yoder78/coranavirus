@@ -38,6 +38,7 @@ section #contenedor{
   
   ul, ol{
     list-style: nome;
+    
   }
 
   .nav li a{
@@ -52,12 +53,14 @@ section #contenedor{
     -moz-transition: all .5s ease-in;
     margin: 0.2em;
     font-weight: bold;
-    text-decoration: none;        
+    text-decoration: none;
+    width: auto;        
   }
 
   .nav > li {
     list-style: none;
     float: left;
+    width: auto; 
   }
 
   .nav li ul {
@@ -92,6 +95,8 @@ section #contenedor{
 
     #contenedor{
         background-color: rgba(6, 6, 212, 0.89);
+        width: auto;
+        
 
     }
     h1{
@@ -103,14 +108,12 @@ section #contenedor{
       float: right;
       width: 15em;
     }
-    #ecua2{
-      width: 700px;
-
-    }
+   
     .contenedor{
       width: 100%;
       position: relative;
-      height: 780px;
+      height: 570px;
+      width: auto;
     }
     .botones{
       font-size: 30px;
@@ -140,3 +143,57 @@ section #contenedor{
       right: 2%;
       top: calc(50% - 70px);
     }
+    .primero{
+      
+      background-color: rgba(236, 241, 241, 0.925);
+      margin: 0.1em;
+    }
+    section#contenido,section#contenido2,aside,article{
+      border-radius: 1em;
+      margin: 1em auto;
+      padding: 0.1em;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      width: 100%;
+      margin-right: 10em;
+      
+
+  }
+  section#contenido,section#contenido2 {
+      display: inline-block;
+      min-height: 20px;
+      vertical-align:top;
+      width: 30%;
+      margin-right: 3em;
+      
+    }
+    .titulo1{
+      font-weight: bold;
+    
+    }
+    .titulo2{
+      font-weight: bold;
+    }
+    button{
+      border-radius: 2em;
+      border-color: lightcoral;
+    }
+    .boton_2{
+      text-decoration: none;
+      padding: 10px;
+      font-family: arial;
+      text-transform: uppercase;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-weight: 800;
+      font-size: 14px;
+      color: rgb(253, 251, 251);
+      background-color: #0b3ad4;
+      text-align: right;
+    }
+    .boton_2:hover{
+      color: #9b0e0e;
+      background-color: #bc6355;
+      text-decoration: none;
+    }
+    
+    
